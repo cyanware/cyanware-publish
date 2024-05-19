@@ -1,0 +1,28 @@
+{
+    "configurations": [
+        {
+            "type": "lldb",
+            "request": "launch",
+            "sourceLanguages": [
+                "swift"
+            ],
+            "args": [],
+            "cwd": "${workspaceFolder:cyanware-publish}",
+            "name": "Debug CyanwarePublish",
+            "program": "${workspaceFolder:cyanware-publish}/.build/debug/CyanwarePublish",
+            "preLaunchTask": "swift: Build Debug CyanwarePublish"
+        },
+        {
+            "type": "lldb",
+            "request": "launch",
+            "sourceLanguages": [
+                "swift"
+            ],
+            "args": [],
+            "cwd": "${workspaceFolder:cyanware-publish}",
+            "name": "Release CyanwarePublish",
+            "program": "${workspaceFolder:cyanware-publish}/.build/release/CyanwarePublish",
+            "preLaunchTask": "swift: Build Release CyanwarePublish"
+        }
+    ]
+}
